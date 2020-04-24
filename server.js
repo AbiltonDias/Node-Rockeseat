@@ -16,6 +16,4 @@ requireDir('./src/models');
 // Rotas
 app.use('/api', require('./src/routes'))
 
-app.listen(3001);
-var port = process.env.PORT || 8080;
-//app.listen(porta);
+app.listen(process.env.PORT || 3001);
